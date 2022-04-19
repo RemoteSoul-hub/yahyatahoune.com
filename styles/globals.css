@@ -314,7 +314,7 @@ a:hover, a:focus {
 
   .contact {
       height: 700px;
-      background: url('../public/contact.png');
+      background: url('/contact.png');
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
