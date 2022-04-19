@@ -23,19 +23,19 @@ const works = () => {
         },
         {
             id: 3,
-            image: '/portfolio1.jpeg',
-            title: 'This is a portfolio item title 3 ',
-            description: 'Hi',
-            github: 'https://github.com',
-            demo: 'https://github.com',
+            image: '/pj-ecommerce.png',
+            title: 'Digital Products - E-commerce Headless Shopify NextJS',
+            description: 'A functional e-commerce website that sells digital products. It uses NextJS and GraphQL to pull data from the shopify store and TailwindCSS for styling.',
+            github: 'https://github.com/RemoteSoul-hub/ecommerce-shopify-api',
+            demo: 'https://ecommerce-shopify-api.vercel.app/',
         },
         {
             id: 4,
-            image: '/portfolio1.jpeg',
-            title: 'This is a portfolio item title 4',
-            description: 'Hi',
-            github: 'https://github.com',
-            demo: 'https://github.com',
+            image: '/pj-lp.png',
+            title: 'Real Estate Landing Page',
+            description: 'This is a landing page that I have developed for a real estate firm. Using : NextJS and TailwindCSS.',
+            github: 'https://github.com/RemoteSoul-hub/oreedesbois-project',
+            demo: 'https://oreedesbois.net/',
         }
     ];
 
@@ -50,7 +50,7 @@ const works = () => {
                     return (
                         <article key={id} className='portfolio__item space-y-6'>
                         <div className='portfolio__item-image'>
-                         <img src={image} alt={title} />
+                         <img src={image} alt={title} className='object-cover h-96' />
                         </div>
                         <h3 className='text-center text-xl font-medium group-hover:text-theme-cyan'>{title}</h3>
                         <p className='text-center'>{description}</p>
