@@ -51,6 +51,12 @@ const testimonials = () => {
             avatar: '/an.png',
             review: "A professional and efficient seller, who works really quickly and is responsive to revisions. I have worked with them twice as I was quite happy with the work they did for me.",
         },
+         {
+            id: 7,
+            reviewer: `Nelen`,
+            avatar: '/nigeria.png',
+            review: "This developer delivered beyond my expectations. Communication was excellent and he remained kind in his response to my many questions, requests and feedback. Made what I anticipated would be a difficult project so much easier. Highly recommend and looking forward to working with him again soon.",
+        },
     ];
 
     return (

@@ -35,8 +35,40 @@ const works = () => {
             title: 'Real Estate Landing Page',
             description: 'This is a landing page that I have developed for a real estate firm. Using : NextJS and TailwindCSS.',
             github: 'https://github.com/RemoteSoul-hub/oreedesbois-project',
-            demo: 'https://oreedesbois.net/',
-        }
+            demo: 'http://144.91.111.10:7556',
+        },
+        {
+            id: 5,
+            image: '/pj-proschool.png',
+            title: 'ProSchool - Real Life Project',
+            description: 'This is a a teacher/student management website that is currently based in France. (Client Project)',
+            github: '#private',
+            demo: 'https://proschool.fr',
+        },
+        {
+            id: 6,
+            image: '/pj-nelen.png',
+            title: 'NelenOnline - Real Life Project',
+            description: 'For a website promoting creative arts, design innovation and sustainable development in Nigeria',
+            github: '#private',
+            demo: 'https://nelenonline.com',
+        },
+        {
+            id: 7,
+            image: '/pj-archer.png',
+            title: 'Archer Monaco - Real Life Project',
+            description: 'For a website advertising / listing campaigns that are based in Monaco',
+            github: '#private',
+            demo: 'https://corporate.archer-monaco.com/',
+        },
+        {
+            id: 8,
+            image: '/pj-inducaf.png',
+            title: 'Inducaf - Real Life Project',
+            description: "Collaborated to make this website come to life for Morocco's most popular tea provider",
+            github: '#private',
+            demo: 'https://inducaf.ma/',
+        },
     ];
 
     return (
